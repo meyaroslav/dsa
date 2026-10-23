@@ -31,7 +31,6 @@ int main()
         {
             auto it = s.upper_bound(p[i].second);
             a += distance(it, s.end());
-
             s.insert(p[i].second);
         }
         cout << a << endl;
