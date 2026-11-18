@@ -9,7 +9,9 @@ int main()
     while (n--) 
     {
         cin >> x >> y >> z;
-        a += x; b += y; c += z;
+        a += x; 
+        b += y; 
+        c += z;
     }
     cout << (a == 0 && b == 0 && c == 0 ? "YES" : "NO");
 }
