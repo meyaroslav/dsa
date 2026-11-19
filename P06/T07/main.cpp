@@ -13,7 +13,7 @@ int main()
         cin >> n;
         long long p, q, r = 0;
         cin >> p;
-        while (n--) 
+        while (--n) 
         {
             cin >> q;
             r = max(r, p * q);

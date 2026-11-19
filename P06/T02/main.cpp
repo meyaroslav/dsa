@@ -14,6 +14,6 @@ int main()
         {
            i++; 
         }
-    }      
+    }
     cout << (i == 5 ? "YES" : "NO");
 }
